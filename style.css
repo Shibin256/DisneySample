@@ -1,3 +1,225 @@
 body{
     margin: 0;
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+@font-face {
+    font-family: DisneyRoman;
+    src: url(fonts/InspireTWDC-Roman-0679a1b070d1.woff);
+}
+
+@font-face {
+    font-family: DisneyRegular;
+    src: url(fonts/matterhorn-regular-eed88f0756d6.woff);
+}
+
+@font-face {
+    font-family: DisneyBold;
+    src: url(fonts/notosans-bold-0453182f82c7.woff);
+}
+
+@font-face {
+    font-family: DisneyNoto;
+    src: url(fonts/notosans-regular-fbe46f26a338.woff);
+}
+
+@font-face {
+    font-family: DisneyPxi;
+    src: url(fonts/pxiEyp8kv8JHgFVrJJfecg.woff2);
+}
+
+.Navbarlogo{
+    margin:19px ;
+    width: 6%;
+}
+
+.NavbarOptions{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'DisneyBold';
+    margin-top: -66px;
+    margin-left: 119px;
+}
+nav{
+    width: 100%;
+    height: 46px;
+
+}
+.NavText{
+    padding-left: 35px;
+    float: left;
+}
+.ImageTransition{
+    display: block;
+    overflow: hidden;
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 385px 385px 385px 385px;
+}
+
+.images:hover{
+    transition: all 1s ease-in-out;
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+
+.playbutton{
+    margin-top: 135px;
+    margin-left: -91px;
+    z-index: 2;
+}
+
+.Quates{
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(0deg, rgb(0 0 0 / 87%) 0%, transparent 100%);
+    margin-top: -149px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-family: 'disneyregular';
+    font-size: 18px;
+    color: white;
+    padding-top: 51px
+}
+.ShopKnow{
+    font-family: 'disneybold';
+    font-size: 1rem;
+}
+
+.Imagesdiv{
+    width: 364px; 
+    height:484px;
+}
+
+.Section2img{
+     margin-left: 10px;
+}
+
+.FinalSection{
+    width: 100%;
+    height: 2050px;
+    margin-top: 20px;
+    background-color: #eeeeee;
+}
+
+.Headings{
+    line-height: 1.875rem;
+    font-size: 1.875rem;
+    font-family: 'disneyNoto';
+}
+
+.Featured{
+    padding-left: 94px;
+    padding-top: 8px;
+}
+
+.Finalimages1{
+    margin-left: 96px;
+}
+
+.GridDiv{
+    display: grid;
+    grid-template-columns:  770px 740px;
+}
+
+.FinalSectionFont{
+    color: #272727;
+    font-size: 18px;
+    padding-left: 136px;
+    padding-top: 20px;
+    font-family: 'DisneyNoto';
+}
+
+.paragraph{
+    font-size: 14px;
+}
+
+.GridDiv2{
+    display: grid;
+    grid-template-columns:  545px 450px 500px; 
+}
+.FinalSectionFont2{
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 67px;
+    padding-top: 15px;
+    font-family: 'DisneyNoto';
+}
+
+.FinalSectiontBoldText{
+    font-family: 'disneybold';
+    font-size: 13px;
+    margin-top: -10px
+}
+
+.GridDiv3{
+    display: grid;
+    grid-template-columns:  502px 440px 497px; 
+}
+
+.GridDiv1{
+    display: grid;
+    grid-template-columns:  675px 740px;
+}
+
+
+.DisneyJunior{
+    font-family: 'disneybold';
+    font-size: 10px;
+}
+
+.Footer{
+    background-color: white;
+    width: 100%;
+    height: 310px;
+}
+
+.FooterLogo{
+    margin-left: 52px;
+}
+
+.FooterGrid{
+    display: grid;
+    grid-template-columns: 225px 100px 100px 870px 47px 47px 47px 45px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 55px;
+    font-family: 'DisneyBold';  
+}
+
+.SocialLogo{
+    margin-top: 6px;
+}
+
+.FooterLogo2{
+    margin-top: 40px;
+    margin-left: 712px;
+}
+
+th{
+    font-family: Matterhorn, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    padding: 15px;
+    color: #4c4c4c;
+    font-weight: 200;
+}
+
+.Copyright{
+    font-family: Matterhorn, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    padding-top: 10px;
+    padding-left: 546px;
+    color: #000000;
+    font-weight: 200;
+}
+
+table {
+    margin-left: 40px;
+    margin-right: 25px;
+}
